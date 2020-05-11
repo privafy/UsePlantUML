@@ -1,15 +1,13 @@
-# Azure-PlantUML
+# UsePlantUML
 
-![Basic usage - Stream processing with Azure Stream Analytics](http://www.plantuml.com/plantuml/proxy?idx=0&src=https%3A%2F%2Fraw.githubusercontent.com%2FRicardoNiepel%2FAzure-PlantUML%2Fmaster%2Fsamples%2FBasic%2520usage%2520-%2520Stream%2520processing%2520with%2520Azure%2520Stream%2520Analytics.puml)
+(shamelessly copied from Azure-PlantUML!)
 
 [PlantUML](http://en.plantuml.com/) sprites, macros and stereotypes for creating PlantUML diagrams with [Azure](https://azure.microsoft.com/en-us/) components.
 
-Azure-PlantUML includes symbols and useful macros for all Azure services.  
-The official [Microsoft Azure, Cloud and Enterprise Symbol / Icon Set](http://aka.ms/CnESymbols) is used as the primary source. On top the missing Azure services symbols have been extracted [manually](source/manual/) from [Azure.com](https://azure.com/).
+UsePlantUML includes symbols and useful macros for various systems to help create Systems and Software Architecture diagrams.
 
-With Azure-PlantUML it is feasible to create visually appealing and memorable PlantUML diagrams for your Azure systems.
-
-It is also possible to combine Azure-PlantUML with [C4-PlantUML](https://github.com/RicardoNiepel/C4-PlantUML) to create [C4 models](https://c4model.com/) for Azure architectures.  
+## Communicating Architectures
+Combine with [C4-PlantUML](https://github.com/RicardoNiepel/C4-PlantUML) to create [C4 models](https://c4model.com/) for architectures.  
 
 > See also [Save the world from Powerpoint Cloud Solution Architects](https://azure-development.com/2018/09/11/save-the-world-from-powerpoint-cloud-solution-architects/)
 
@@ -44,9 +42,9 @@ It is also possible to combine Azure-PlantUML with [C4-PlantUML](https://github.
 
 ## Getting Started
 
-To be able to use Azure-PlantUML it is necessary to use specific `!includes`.  
-After that the Azure service macros are available and can be used.  
-A list of all supported Azure services can be found in the [Azure-PlantUML Azure Symbols Documentation](AzureSymbols.md).
+To be able to use UsePlantUML it is necessary to use specific `!includes`.  
+After that the service macros are available and can be used.  
+A list of all supported services can be found in the [UsePlantUML Architecture Symbols Documentation](ArchSymbols.md).
 
 ### Prerequisites
 
@@ -315,6 +313,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
+* [Azure-PlantUML](https://github.com/RicardoNiepel/Azure-PlantUML)
 * [AWS-PlantUML](https://github.com/milo-minderbinder/AWS-PlantUML) - for the base structure
 * [plantuml-office](https://github.com/Roemer/plantuml-office) - for the scripts idea
 * [C4 Model](https://c4model.com/) - for the hope that it's possible to improve architecture documentations

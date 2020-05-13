@@ -1,4 +1,4 @@
-sprite $AzureAPIManagement [70x61/16z] {
+sprite $APIManagement [70x61/16z] {
 fPO7ceGm28Mf2UJ-zztEV15bOjn_wrYGyW1X2KapStVhol0CL1yJtXyOeZvEcC0URLnYjEE8Zmg5kyXinCri_jpX7Zg2BWG_83VVCoFXXEBnk6sOuRWMoqWR
 hC3VAvtX0hJnWy02-pLILVHNHOwBfAokwdTIuycJobckb4RCtDRAGg-S8RLPvdVaH91W6mTMlUjNrSxDQxUqxKa2s_s6KqYvUwst_cCHOKLFoaEF-OE_dyKC
 bcXAZ9tbZZTRhQUY6S8UU2W2FZC2U2XIYvxPvM35Ks4V-SBJX-TvQP7gNJYMIXPF1fb5cDwETzTNMWZEK0j5UvTAk-6FPxtd5eydPdm4JfKlEXBEvxG41buC
@@ -7,6 +7,6 @@ bcXAZ9tbZZTRhQUY6S8UU2W2FZC2U2XIYvxPvM35Ks4V-SBJX-TvQP7gNJYMIXPF1fb5cDwETzTNMWZE
 KplaRgJGrpx4GhDd1eb7uJ7y1xBekas4KuAUn8C-J1a1YRjFzTwZZumJxC8Zqn6sQKNdRaBDqol3GrYxVT6KOCKd
 }
 
-AzureEntityColoring(AzureAPIManagement)
-!define AzureAPIManagement(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAPIManagement, AzureAPIManagement)
-!define AzureAPIManagement(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAPIManagement, AzureAPIManagement)
+EntityColoring(APIManagement)
+!define APIManagement(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, _SYMBOL_COLOR, APIManagement, APIManagement)
+!define APIManagement(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, _SYMBOL_COLOR, APIManagement, APIManagement)

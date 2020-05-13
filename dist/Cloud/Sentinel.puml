@@ -1,4 +1,4 @@
-sprite $AzureSentinel [61x70/16z] {
+sprite $Sentinel [61x70/16z] {
 lPLfUYCX34H1e1Ogxd_Uh4rmopMsFDlxDvEyhxGrAR-WgJam0Hz7AwzG5HERYQEcNGNWjm0uSghuX4S0pnH_0Cx0j6UrTzzkb2VquPn2nK7-r7cwwC1I6VDa
 gDp4IUjgNrL5DGOluAQzIItp4o28J6R0Kym_aF7_PDCczNkUQkupBuyUrjb7LZPsnJ8oykY5q_of_EZwxOcivH4TZ-HLSjO6pLrNtwGIcyd7zIFpBy83g5ns
 kr7jSbr-emykxmBrxZHjDmCYxuQhaG_AvQTj8e-zJlfDuCVsUxa7DyhJwtqqGiVgWRdugGrHNckgsrAffOfYBjRCDSej5ht_F1tpnDSYeno3jMnwZCPLjj3n
@@ -7,6 +7,6 @@ sKN8jl1v0PTV7jVnXUqWDEsuB2eK7Gi_TztM_74xBpbbMLQuoNwP6EnR7lO5htgF2ECBFwjMEA54V19C
 rc0nE-To6pcNsyZrowUMd3FTDnBxfTY4WzzL0WLpBQFoHmjQieYJKUKvBkwevIKQICbfwZXTb_8RT93ODDNcU1Zx3W
 }
 
-AzureEntityColoring(AzureSentinel)
-!define AzureSentinel(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureSentinel, AzureSentinel)
-!define AzureSentinel(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureSentinel, AzureSentinel)
+EntityColoring(Sentinel)
+!define Sentinel(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, _SYMBOL_COLOR, Sentinel, Sentinel)
+!define Sentinel(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, _SYMBOL_COLOR, Sentinel, Sentinel)

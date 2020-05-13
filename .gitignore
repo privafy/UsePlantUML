@@ -5,12 +5,6 @@
 !.vscode/launch.json
 !.vscode/extensions.json
 
-scripts/.vscode/*
-!scripts/.vscode/settings.json
-!scripts/.vscode/tasks.json
-!scripts/.vscode/launch.json
-!scripts/.vscode/extensions.json
-
 # Custom
 source/official/*
 !source/official/README.md

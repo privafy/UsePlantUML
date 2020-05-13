@@ -5,8 +5,8 @@
 !includeurl Puml/Common.puml
 !includeurl Puml/Analytics/Databricks.puml
 !includeurl Puml/Analytics/StreamAnalytics.puml
-!includeurl Puml/Network/DNS.puml
-!includeurl Puml/Network/VPNGateway.puml
+!includeurl Puml/Networking/DNS.puml
+!includeurl Puml/Networking/VPNGateway.puml
 
 left to right direction
 

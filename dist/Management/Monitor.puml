@@ -1,4 +1,4 @@
-sprite $AzureMonitor [70x70/16z] {
+sprite $Monitor [70x70/16z] {
 bLTPek0W21CK1Ez_trdfCzfgRRvcCoGXsdbf3SgYvjwQkrKfdBuZgxS9NWkb3s2W657BCKTj6xWSSLXxWR_hqVkXkplZlH0VqfGSSHANCQgTBG4AlSsZ0cPj
 kQwUgkNLyleOVY7nlAcYxcaCF9yjyO6chaPmoPcVu-CLIHrkWV5rnXHivciYFMz7fo1BIgMtbkP6sAWQ8y5R834ue3JHQ0B0duqDrZu1rWTpmQUEcP2rrcEY
 Xk0f6v_z-A2s6s-0Wb6E-Wt6p0x2BeJFHfjZqcS0ubztPUJNPcZ8eKu6SmDGIc8EzR0usESHICaFxuCBNymrj5VKxJqPnVuKvv0tlsca9SRtC4ftuI7bifg3
@@ -9,6 +9,6 @@ Flana0Qif_2v4dnUadcotYtwEKrzgdZzI5CVrPEtBzaOLFoHHWwsi_wt_F8J8OOOqDs4lHms8DdIk6n_
 UXkWHpTr3mCXcm2ti9oEGEexZdFa-aWXb3w2fVgGSrvJ_0O
 }
 
-AzureEntityColoring(AzureMonitor)
-!define AzureMonitor(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureMonitor, AzureMonitor)
-!define AzureMonitor(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureMonitor, AzureMonitor)
+EntityColoring(Monitor)
+!define Monitor(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, _SYMBOL_COLOR, Monitor, Monitor)
+!define Monitor(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, _SYMBOL_COLOR, Monitor, Monitor)

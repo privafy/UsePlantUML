@@ -1,4 +1,4 @@
-sprite $AzureAutomation [70x61/16z] {
+sprite $Automation [70x61/16z] {
 fLS9hgmm36lQRER-z_qBwWICogpMzaIH4yTncTS-GgHhRpz2jl-0_qQasqJgDptCuh4LyiD-XcE3x7zYEn1Vg8YTxqG2-MOMexNc9nRxKD2S0mj2-ufbKnAa
 xofHPXbJK7NM-cjLDiqi5ZaBwgs9iqzhalzmQOf7zKuk2wgdbqkAgk_DoELulJLLju1-4kHLveNXVgP8xMTYI1EyPRZWu1WrgN8vohWtu-lpGPvSrhUpb7CU
 DAbPl-FDB0cAX0N5IN1_nUANrvApt5-iYxYxcO5zbCeopUt_c-vZjRM5fATaBTzxwwcIZ_HKbuifxOfb2LbK3Ih767I7NBSdRGUzkSf1J-gJ1J4zAXAwsDhA
@@ -8,6 +8,6 @@ IFPnS-8Hnyqk4FRfW7bj4dLBEe2m7GTGmWa0YBh6HhE2wOnpFrI6RqjuJEeIgwXBJ7B_iomRhVNO67FW
 B9HIOkbD1CLIOE_6iTc8mVagNYCMXjUqE_Yb8kP_i-p-9pB2WiHHBtORPQvsUukAUXPpfgkq5R0neds8jPNo3OrlEMGVFrGKBFjzzCVTPhHBtmhxck0l
 }
 
-AzureEntityColoring(AzureAutomation)
-!define AzureAutomation(e_alias, e_label, e_techn) AzureEntity(e_alias, e_label, e_techn, AZURE_SYMBOL_COLOR, AzureAutomation, AzureAutomation)
-!define AzureAutomation(e_alias, e_label, e_techn, e_descr) AzureEntity(e_alias, e_label, e_techn, e_descr, AZURE_SYMBOL_COLOR, AzureAutomation, AzureAutomation)
+EntityColoring(Automation)
+!define Automation(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, _SYMBOL_COLOR, Automation, Automation)
+!define Automation(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, _SYMBOL_COLOR, Automation, Automation)

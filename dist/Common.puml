@@ -66,17 +66,17 @@ rectangle "==e_label\n<color:e_color><$e_sprite></color>\n//<size:TECHN_FONT_SIZ
 
 '--- Azure definitions
 
-!definelong AzureEntityColoring(e_stereo)
+!definelong EntityColoring(e_stereo)
 skinparam rectangle<<e_stereo>> {
-    BackgroundColor AZURE_BG_COLOR
-    BorderColor AZURE_BORDER_COLOR
+    BackgroundColor _BG_COLOR
+    BorderColor _BORDER_COLOR
 }
 !enddefinelong
 
-!definelong AzureEntity(e_alias, e_label, e_techn, e_color, e_sprite, e_stereo)
+!definelong Entity(e_alias, e_label, e_techn, e_color, e_sprite, e_stereo)
 rectangle "==e_label\n<color:e_color><$e_sprite></color>\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//" <<e_stereo>> as e_alias
 !enddefinelong
 
-!definelong AzureEntity(e_alias, e_label, e_techn, e_descr, e_color, e_sprite, e_stereo)
+!definelong Entity(e_alias, e_label, e_techn, e_descr, e_color, e_sprite, e_stereo)
 rectangle "==e_label\n<color:e_color><$e_sprite></color>\n//<size:TECHN_FONT_SIZE>[e_techn]</size>//\n\n e_descr" <<e_stereo>> as e_alias
 !enddefinelong

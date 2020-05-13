@@ -3,17 +3,17 @@
 
 !define Puml https://raw.githubusercontent.com/larryr/UsePlantUML/master/dist
 !includeurl Puml/Common.puml
-!includeurl Puml/Azure/Databases/all.puml 
-!includeurl Puml/Azure/Compute/AzureFunction.puml
+!includeurl Puml/Databases/all.puml 
+!includeurl Puml/Compute/Function.puml
 !includeurl Puml/Networking/VPNGateway.puml
 
 actor "Person" as personAlias
-AzureFunction(functionAlias, "Label", "Technology", "A Description")
-AzureCosmosDb(cosmosDbAlias, "Label", "Technology", "Optional Description")
-AzureVPNGateway(vpn, "Privafy ABS(Encrypt)", "Privafy", "Mesh Encryption")
+Function(fct, "Label", "Technology", "A Description")
+SqlDatabase(sqldb, "Label", "Technology", "Optional Description")
+VPNGateway(vpn, "Privafy ABS(Encrypt)", "Privafy", "Mesh Encryption")
 
-personAlias --> functionAlias
-functionAlias --> vpn
-vpn --> cosmosDbAlias
+personAlias --> fct
+fct --> vpn
+vpn --> sqldb
 
 @enduml

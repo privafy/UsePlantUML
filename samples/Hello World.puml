@@ -1,6 +1,7 @@
 @startuml Hello World
 !pragma revision 1
 
+'!define Puml dist/
 !define Puml https://raw.githubusercontent.com/larryr/UsePlantUML/master/dist
 !includeurl Puml/Common.puml
 !includeurl Puml/Databases/all.puml 
@@ -14,6 +15,6 @@ VPNGateway(vpn, "Privafy ABS(Encrypt)", "Privafy", "Mesh Encryption")
 
 personAlias --> fct
 fct --> vpn
-vpn --> sqldb
+vpn --> sqldb 
 
 @enduml

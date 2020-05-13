@@ -1,25 +1,25 @@
-@startuml Basic usage - Stream processing with Azure Stream Analytics
+@startuml Basic usage - Stream processing with  Stream Analytics
 !pragma revision 2
 
-!define AzurePuml https://raw.githubusercontent.com/RicardoNiepel/Azure-PlantUML/master/dist
-!includeurl AzurePuml/AzureCommon.puml
-!includeurl AzurePuml/Analytics/AzureEventHub.puml
-!includeurl AzurePuml/Analytics/AzureStreamAnalytics.puml
-!includeurl AzurePuml/Databases/AzureCosmosDb.puml
+!define Puml https://raw.githubusercontent.com/larryr/UsePlantUML/master/dist
+!includeurl Puml/Common.puml
+!includeurl Puml/Analytics/Databricks.puml
+!includeurl Puml/Analytics/StreamAnalytics.puml
+!includeurl Puml/Network/DNS.puml
+!includeurl Puml/Network/VPNGateway.puml
 
 left to right direction
 
 agent "Device Simulator" as devices #fff
 
-AzureEventHub(fareDataEventHub, "Fare Data", "PK: Medallion HackLicense VendorId; 3 TUs")
-AzureEventHub(tripDataEventHub, "Trip Data", "PK: Medallion HackLicense VendorId; 3 TUs")
-AzureStreamAnalytics(streamAnalytics, "Stream Processing", "6 SUs")
-AzureCosmosDb(outputCosmosDb, "Output Database", "1,000 RUs")
+DNS(dns, "Output Database", "1,000 RUs")
+VPNGateway(vpn, "Fare Data", "PK: Medallion HackLicense VendorId; 3 TUs")
+Databricks(databricks, "Trip Data", "PK: Medallion HackLicense VendorId; 3 TUs")
+StreamAnalytics(streamAnalytics, "Stream Processing", "6 SUs")
 
-devices --> fareDataEventHub
-devices --> tripDataEventHub
-fareDataEventHub --> streamAnalytics
-tripDataEventHub --> streamAnalytics
-streamAnalytics --> outputCosmosDb
+devices --> dns
+devices --> vpn
+vpn --> streamAnalytics
+streamAnalytics --> databricks
 
 @enduml

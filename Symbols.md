@@ -8,8 +8,8 @@ If you want to be independent of any internet connectivity, you can also downloa
 ```c#
 !define Puml path/to
 !include Puml/Common.puml
-!include Puml/Databases/CosmosDb.puml
-!include Puml/Compute/Function.puml
+!include Puml/Network/DNS.puml
+!include Puml/Cloud/KeyVault.puml
 ```
 
 If you want to use the always up-to-date version in this repo, use the following:
@@ -17,8 +17,8 @@ If you want to use the always up-to-date version in this repo, use the following
 ```c#
 !define Puml https://raw.githubusercontent.com/larryr/UsePlantUML/master/dist
 !includeurl Puml/Common.puml
-!includeurl Puml/Databases/CosmosDb.puml
-!includeurl Puml/Compute/Function.puml
+!includeurl Puml/Network/DNS.puml
+!includeurl Puml/Cloud/KeyVault.puml
 ```
 
 ## SVG and PNG images, PPTX file
@@ -26,8 +26,6 @@ If you want to use the always up-to-date version in this repo, use the following
 You can also use the colored and monochrom SVG and PNG images outside of PlantUML, e.g. for documents or presentations.
 
 There is also a PowerPoint file (PPTX) which includes all  symbols as SVGs: [Symbols.pptx](dist/Symbols.pptx?raw=true).
-
-> If the size of the generated PNG images is not enough for you, take a look at [how you can build UsePlantUML on your own](scripts/README.md).
 
 ## All generated  symbols (SVG and PNG) and PlantUML sprites
 

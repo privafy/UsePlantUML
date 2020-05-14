@@ -1,4 +1,4 @@
-sprite $SymDNS [70x70/16z] {
+sprite $DNS [70x70/16z] {
 fLY9Skim23G2SUZ_F_XDZBec-DMzTeuq2hEiO7Nr-1p4ekOHAznjoZX-3bPV3M52Fw4O6kl_CFusXwq7X7o7Wwmb9s9xv_bQpunLu6FBooB51_LJVH2zNERv
 SKMVSfGrlfwMH7BmGV7wF0fEVZvey-Yd98ffdwcZwjwyA1nqTjYLX5z_5TKOcv1SQJf9CEJR_m8YTVcgMZk9qvKsszFdDClaxsgqMjDHlXO3CMa8xpQ1GuIE
 iQLqq6wJ63nvgnpWZZGDbhyMp3xZc5wfT0eJ8OA6J7qZyBFQenM5ZuCjrWqHwuwOupZUDOzYnlJuCqB7hMd96Sth3s14Id4Dvq_0AyCWbcaENRbfyWY4Takq
@@ -12,5 +12,5 @@ lyqDZ-Mv-igMFJAi5VRfGUrDCwytOzgt7lU1ArsrfKNxZyMp7C0Pv_i5fUCPi1GGPj7Mnl4zWEU6KFhD
 }
 
 EntityColoring(SymDNS)
-!define SymDNS(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, _SYMBOL_COLOR, SymDNS, SymDNS)
-!define SymDNS(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, _SYMBOL_COLOR, SymDNS, SymDNS)
+!define DNS(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, _SYMBOL_COLOR, SymDNS, SymDNS)
+!define DNS(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, _SYMBOL_COLOR, SymDNS, SymDNS)

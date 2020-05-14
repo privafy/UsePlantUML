@@ -1,20 +1,23 @@
 @startuml Hello World
 !pragma revision 1
 
-'!define Puml dist/
-!define Puml https://raw.githubusercontent.com/larryr/UsePlantUML/master/dist
+!define Puml dist
+'!define Puml https://raw.githubusercontent.com/larryr/UsePlantUML/master/dist
 !includeurl Puml/Common.puml
 !includeurl Puml/Databases/all.puml 
 !includeurl Puml/Compute/Function.puml
 !includeurl Puml/Networking/VPNGateway.puml
+!includeurl Puml/Networking/DNS.puml
 
 actor "Person" as personAlias
 Function(fct, "Label", "Technology", "A Description")
 SqlDatabase(sqldb, "Label", "Technology", "Optional Description")
 VPNGateway(vpn, "Privafy ABS(Encrypt)", "Privafy", "Mesh Encryption")
+DNS(dns,"PrivafyDNS","Privafy","Secure DNS")
 
 personAlias --> fct
 fct --> vpn
 vpn --> sqldb 
+fct -> dns
 
 @enduml

@@ -11,6 +11,6 @@ VvEvgUghBAfg7ls6AFt98Ql31XqTG-zXlOD8mlFryQbHHvcrtmEIuk5wnLVv8iF7pTfblT_5T7jIzCSi
 lyqDZ-Mv-igMFJAi5VRfGUrDCwytOzgt7lU1ArsrfKNxZyMp7C0Pv_i5fUCPi1GGPj7Mnl4zWEU6KFhDVuFwXl1Ja6XzgwaypEGV
 }
 
-EntityColoring(SymDNS)
-!define DNS(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, _SYMBOL_COLOR, SymDNS, SymDNS)
-!define DNS(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, _SYMBOL_COLOR, SymDNS, SymDNS)
+EntityColoring(DNS)
+!define DNS(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, _SYMBOL_COLOR, DNS, DNS)
+!define DNS(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, _SYMBOL_COLOR, DNS, DNS)

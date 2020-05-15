@@ -1,0 +1,24 @@
+@startuml Hello World
+!pragma revision 1
+
+!define Puml dist
+'!define Puml https://raw.githubusercontent.com/larryr/UsePlantUML/master/dist
+!includeurl Puml/Common.puml
+
+
+rectangle PGREEN "PGreen"
+rectangle PGRAY "PGray"
+rectangle PDKGREEN "PDKGREEN"
+rectangle PLTGREEN "PLTGREEN"
+rectangle PAPURPLE "PAPURPLE"
+rectangle PABLUE "PABLUE"
+rectangle PAORANGE "PAORANGE"
+rectangle PARED "PARED"
+rectangle PANAVY "PANAVY"
+rectangle PVORANGE "PVORANGE"
+rectangle PVLTGREEN "PVLTGREEN"
+rectangle PGLTGRAY1 "PGLTGRAY1"
+rectangle PGLTGRAY2 "PGLTGRAY2"
+rectangle PGLTGRAY3 "PGLTGRAY3"
+
+@enduml

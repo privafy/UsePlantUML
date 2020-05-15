@@ -2,11 +2,30 @@
 ' https://github.com/larryr/UsePlantUML
 
 '--- Colors
-!define _COLOR #0072C6
-!define _BG_COLOR #FFFFFF
-!define _BORDER_COLOR #3C7FC0
-!define _SYMBOL_COLOR _COLOR
 
+!define PGREEN   #5EB569
+!define PGRAY    #384149
+!define PDKGREEN #4E9658
+!define PLTGREEN #88C68D
+
+!define PAPURPLE #571079
+!define PABLUE   #385CAD
+!define PAORANGE #FFAD02
+!define PARED    #D0242B
+!define PANAVY   #13163D
+
+!define PVORANGE  #FFCD64
+!define PVLTGREEN #DCEEDC
+
+!define PGLTGRAY #F1F4F6
+!define PGLTGRAY1 #D1D8DD
+!define PGLTGRAY2 #96A1A9
+!define PGLTGRAY3 #657079
+
+!define _COLOR PDKGREEN
+!define _BG_COLOR WHITE
+!define _BORDER_COLOR PDKGREEN
+!define _SYMBOL_COLOR _COLOR
 
 '--- Leave Azure colors separate for Azure specific components
 !define AZURE_COLOR #0072C6

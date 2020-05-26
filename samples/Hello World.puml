@@ -8,15 +8,19 @@
 !includeurl Puml/Compute/Function.puml
 !includeurl Puml/Networking/VPNGateway.puml
 !includeurl Puml/Networking/DNS.puml
+!includeurl Puml/Cloud/EventHub.puml
 
 actor "Person" as personAlias
 Function(fct, "Label", "Technology", "A Description")
 SqlDatabase(sqldb, "Label", "Technology", "Optional Description")
-VPNGateway(vpn, "Privafy ABS(Encrypt)", "Privafy", "Mesh Encryption")
+ProtectedNetwork(pnet, "Privafy ABS(Encrypt)", "Encrypted", "Policy Enforced Network")
+VPNGateway(vpn, "Privafy VPN", "IPSec/IKE2", "Gateway to Privafy")
 DNS(dns,"PrivafyDNS","Privafy","Secure DNS")
-
+PrivafyCtl(pctl, "Privafy Ctl", "mTLS", "Control channel to Edge")
 personAlias --> fct
 fct --> vpn
+fct -> pnet
+pnet -> sqldb
 vpn --> sqldb 
 fct -> dns
 

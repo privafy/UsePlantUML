@@ -7,3 +7,7 @@ RqWk5oNu1W
 EntityColoring(EventHub)
 !define EventHub(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, _SYMBOL_COLOR, EventHub, EventHub)
 !define EventHub(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, _SYMBOL_COLOR, EventHub, EventHub)
+
+EntityColoring(PrivafyCtl)
+!define PrivafyCtl(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, _SYMBOL_COLOR, EventHub, PrivafyCtl)
+!define PrivafyCtl(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, _SYMBOL_COLOR, EventHub, PrivafyCtl)

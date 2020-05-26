@@ -6,6 +6,9 @@ NVxUr2cFgrzuMYs_wHNZqrCTSz3VOWy7hnBmMcjxr_DDRrxgrT76xVxXiUdrtLZ-Y6VdqAgSyAbtVldo
 BqquyKnR0_TSMrMZdckhtKWgN5lEHZtN6l_pZ8wbFZJxJ_UESx7_LNm1
 }
 
+EntityColoring(ProtectedNetwork)
+!define ProtectedNetwork(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, _SYMBOL_COLOR, VPNGateway, ProtectedNetwork)
+!define ProtectedNetwork(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, _SYMBOL_COLOR, VPNGateway, ProtectedNetwork)
 EntityColoring(VPNGateway)
 !define VPNGateway(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, _SYMBOL_COLOR, VPNGateway, VPNGateway)
 !define VPNGateway(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, _SYMBOL_COLOR, VPNGateway, VPNGateway)

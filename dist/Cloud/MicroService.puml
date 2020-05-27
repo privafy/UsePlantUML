@@ -7,5 +7,5 @@ WunJG-1XHiyqO00HRIC9hXqZeOrKlBs0z0gf4sIg_QQfGh5nMlNtnTWTcMyVj7MF-7lAMnz0lDu_d-wC
 }
 
 EntityColoring(MicroService)
-!define MicroService(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, _SYMBOL_COLOR, Function, MicroService)
-!define MicroService(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, _SYMBOL_COLOR, Function, MicroService)
+!define MicroService(e_alias, e_label, e_techn) Entity(e_alias, e_label, e_techn, _SYMBOL_COLOR, MicroService, MicroService)
+!define MicroService(e_alias, e_label, e_techn, e_descr) Entity(e_alias, e_label, e_techn, e_descr, _SYMBOL_COLOR, MicroService, MicroService)

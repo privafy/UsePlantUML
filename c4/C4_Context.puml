@@ -78,7 +78,7 @@ legend right
 |<SYSTEM_BG_COLOR>   | system |
 |<EXTERNAL_SYSTEM_BG_COLOR>      | external system |
 endlegend
-!procedure
+!endprocedure
 
 ' Elements
 ' ##################################

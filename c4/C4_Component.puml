@@ -43,7 +43,7 @@ legend right
 |<CONTAINER_BG_COLOR>   | container |
 |<COMPONENT_BG_COLOR>   | component |
 endlegend
-!procedure
+!endprocedure
 
 ' Elements
 ' ##################################

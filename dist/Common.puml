@@ -23,7 +23,7 @@
 !define PGLTGRAY3 #657079
 
 !define _COLOR PDKGREEN
-!define _BG_COLOR WHITE
+!define _BG_COLOR #FFFFFF
 !define _BORDER_COLOR PDKGREEN
 !define _SYMBOL_COLOR _COLOR
 

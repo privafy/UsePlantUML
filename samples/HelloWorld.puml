@@ -13,6 +13,7 @@
 !include Puml/Networking/VirtualNetwork.puml
 !include Puml/Cloud/EventHub.puml
 !include Puml/Cloud/Control.puml
+!include Puml/Cloud/MicroService.puml
  
 
 actor "Person" as personAlias
@@ -26,7 +27,7 @@ EventHub("hub", "Privafy Msg", "nats", "Reliable Message Bus")
 TrafficManager(traffic, "Traffic Manager", "netmgr", "Apply enforcement and traffic shaping")
 VirtualWAN(wan, "Internet", "netmgr", "Access to Internet")
 VirtualNetwork(pnet, "Private Network", "netmgr", "Enterprise Network Access")
-
+MicroService(micro1, "MicroService", "go", "Does stuff and then more stuff")
 personAlias --> pctl
 personAlias --> pnetgw
 pnetgw -d-> traffic

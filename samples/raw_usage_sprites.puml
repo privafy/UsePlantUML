@@ -1,0 +1,20 @@
+@startuml Raw usage - Sprites
+!pragma revision 1
+
+!define Puml https://raw.githubusercontent.com/larryr/UsePlantUML/master/dist
+!includeurl Puml/Common.puml
+!includeurl Puml/Databases/SqlDatabase.puml
+!includeurl Puml/Compute/Function.puml
+
+component "<color:red><$Function></color>" as myFunction
+
+database "<color:#0072C6><$SqlDatabase></color>" as myDB
+
+Function(mySecondFunction, "Stream Processing", "Consumption")
+
+rectangle "<color:_SYMBOL_COLOR><$SqlDatabase></color>" as mySecondDB
+
+myFunction --> myDB
+mySecondFunction --> mySecondDB 
+
+@enduml

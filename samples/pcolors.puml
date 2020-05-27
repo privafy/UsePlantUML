@@ -3,22 +3,22 @@
 
 !define Puml dist
 '!define Puml https://raw.githubusercontent.com/larryr/UsePlantUML/master/dist
-!includeurl Puml/Common.puml
+!include Puml/Common.puml
 
 
 rectangle PGREEN "PGreen"
 rectangle PGRAY "PGray"
-rectangle PDKGREEN "PDKGREEN"
-rectangle PLTGREEN "PLTGREEN"
-rectangle PAPURPLE "PAPURPLE"
-rectangle PABLUE "PABLUE"
-rectangle PAORANGE "PAORANGE"
-rectangle PARED "PARED"
-rectangle PANAVY "PANAVY"
-rectangle PVORANGE "PVORANGE"
-rectangle PVLTGREEN "PVLTGREEN"
-rectangle PGLTGRAY1 "PGLTGRAY1"
-rectangle PGLTGRAY2 "PGLTGRAY2"
-rectangle PGLTGRAY3 "PGLTGRAY3"
+rectangle PDKGREEN " PDKGreen "
+rectangle PLTGREEN "P-LTGreen"
+rectangle PAPURPLE "PAPurple"
+rectangle PABLUE "PABlue"
+rectangle PAORANGE "PAOrange"
+rectangle PARED "PARed"
+rectangle PANAVY "PANavy"
+rectangle PVORANGE "PVOrange"
+rectangle PVLTGREEN "P-VLTGreen"
+rectangle PGLTGRAY1 "P-GLTGray1"
+rectangle PGLTGRAY2 "P-GLTGray2"
+rectangle PGLTGRAY3 "P-GLTGray3"
 
 @enduml

@@ -1,10 +1,12 @@
 ' UsePlantUML, version 1.0.0
 ' https://github.com/larryr/UsePlantUML
 
+!include ../dist/Common.puml
+
 ' Colors
 ' ##################################
 
-!define ELEMENT_FONT_COLOR #FFFFFF
+!define ELEMENT_FONT_COLOR #000000
 
 ' Styling
 ' ##################################

@@ -1,0 +1,39 @@
+@startuml Two Mode Sample - Normal
+!pragma revision 1
+
+!define AzurePuml https://raw.githubusercontent.com/larryr/UsePlantUML/master/dist/Azure
+!include AzurePuml/AzureCommon.puml
+
+'** uncomment the following for a simplified view of the components:
+'** no bordering box; no descriptions.
+
+'!include AzurePuml/AzureSimplified.puml 
+
+!include AzurePuml/Analytics/AzureEventHub.puml
+!include AzurePuml/Compute/AzureFunction.puml
+!include AzurePuml/Databases/AzureCosmosDb.puml
+!include AzurePuml/Storage/AzureDataLakeStorage.puml
+!include AzurePuml/Analytics/AzureStreamAnalytics.puml
+!include AzurePuml/InternetOfThings/AzureTimeSeriesInsights.puml
+!include AzurePuml/Identity/AzureActiveDirectoryB2C.puml
+!include AzurePuml/DevOps/AzureApplicationInsights.puml
+
+
+LAYOUT_LEFT_RIGHT
+
+AzureEventHub(rawEventsHubAlias, "Raw Event Hub", "PK: Medallion HackLicense VendorId; 3 TUs")
+AzureDataLakeStorage(datalakeAlias, "Data Lake", "GRS")
+AzureStreamAnalytics(streamAnalyticsAlias, "Aggregate Events", "6 SUs")
+AzureFunction(stateFunctionAlias, "State Processor", "C#, Consumption Plan")
+AzureEventHub(aggregatedEventsHubAlias, "Aggregated Hub", "6 TUs")
+AzureCosmosDb(stateDBAlias, "State Database", "SQL API, 1000 RUs")
+AzureTimeSeriesInsights(timeSeriesAlias, "Time Series", "2 Data Processing Units")
+
+rawEventsHubAlias ----> datalakeAlias
+rawEventsHubAlias --> streamAnalyticsAlias
+rawEventsHubAlias ---> stateFunctionAlias
+streamAnalyticsAlias --> aggregatedEventsHubAlias
+aggregatedEventsHubAlias --> timeSeriesAlias
+stateFunctionAlias --> stateDBAlias
+
+@enduml

@@ -1,7 +1,7 @@
 ' UsePlantUML, version 1.0.0
 ' https://github.com/larryr/UsePlantUML
 
-!include ../dist/Common.puml
+!include https://raw.githubusercontent.com/larryr/UsePlantUML/master/dist/Common.puml
 
 ' Colors
 ' ##################################

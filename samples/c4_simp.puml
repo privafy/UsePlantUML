@@ -1,0 +1,49 @@
+@startuml
+!pragma revision 2
+title "Edge Functions"
+
+!define Puml c4
+'!define Puml https://raw.githubusercontent.com/larryr/UsePlantUML/master/c4
+
+'!includeurl Puml/C4_Container.puml
+'!includeurl Puml/C4_Component.puml
+!includeurl Puml/C4_Context.puml
+
+LAYOUT_LEFT_RIGHT
+
+
+Boundary(host, "Host-Edge Namespace") { 
+}
+
+Boundary(e1, "Subscriber-1 Namespace") { 
+}
+Boundary(e1c1, "Container-1-1") { 
+}
+Boundary(e1c2, "Container-1-2") { 
+}
+Boundary(e1c3, "Container-1-3") { 
+}
+
+Boundary(e2, "Subscriber-2 Namespace") { 
+}
+Boundary(e2c1, "Container-2-1") { 
+}
+Boundary(e2c2, "Container-2-2") { 
+}
+Boundary(e2c3, "Container-2-3") { 
+}
+
+Rel(host,e1, "")
+'host --> e1 : m
+Rel(host,e2, "h", "tech")
+
+Rel(e1, e1c1, " ")
+Rel(e1, e1c2, " ")
+Rel(e1, e1c3, " ")
+
+Rel(e2, e2c1, " ")
+Rel(e2, e2c2, " ")
+Rel(e2, e2c3, " ")
+
+
+@enduml

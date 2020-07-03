@@ -1,0 +1,43 @@
+@startuml
+
+!include ../style/sequence.puml
+
+'LAYOUT_AS_SKETCH()
+
+
+box "Foo1"
+participant A
+participant B
+end box
+box "Foo2"
+participant C
+participant D
+end box
+actor  P
+
+group A Group
+A --> B
+loop 10
+B --> C
+end
+C --> A
+end
+== Divider ==
+A <- C
+activate A
+A -> A : working
+A -> C
+deactivate A
+
+A --> D
+hnote right of D
+Something
+end hnote
+B --> E
+activate E
+ref over B :Hello
+E --> B
+deactivate E
+destroy E
+
+@enduml

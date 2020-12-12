@@ -7,25 +7,9 @@
 'include ../dist/Common.puml
 
 skinparam Class {
-    ActorBackgroundColor        PVLTGREEN
-    ActorBorderColor            PDKGREEN
-    BoxBackgroundColor          PGLTGRAY1
-    BoxBorderColor              PGLTGRAY2
-    DividerFontColor            PGLTGRAY3
-    DividerBorderColor          PGLTGRAY3
-    GroupBackgroundColor        PGLTGRAY
-    GroupBorderColor            PGLTGRAY3
-    GroupBorderThickness        1
-    GroupFontColor              PGLTGRAY3
-    GroupHeaderFontColor        PGLTGRAY3
-    GroupHeaderFontStyle        italic
-    LifeLineBackgroundColor     PLTGREEN
-    LifeLineBorderColor         PDKGREEN
-    ParticipantBackgroundColor  PLTGREEN
-    ParticipantBorderColor      PDKGREEN
-    ReferenceBorderColor        PGLTGRAY3
-    ReferenceBorderThickness    1
-    ReferenceFontColor          PGLTGRAY3
+    BackgroundColor        PVLTGREEN
+    BorderColor            PDKGREEN
+    ArrowColor             BLACK
 }
 skinparam Arrow {
     Color     PDKGREEN
@@ -38,5 +22,3 @@ skinparam Note {
     FontColor       PGLTGRAY3
 }
 
-skinparam BoxPadding 10
-skinparam ParticipantPadding 5

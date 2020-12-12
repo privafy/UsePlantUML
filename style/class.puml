@@ -1,0 +1,42 @@
+
+' 
+' class diagram styles
+'
+'-- choose local or repo; commenting out one or the other
+!includeurl https://raw.githubusercontent.com/larryr/UsePlantUML/master/dist/Common.puml
+'include ../dist/Common.puml
+
+skinparam Class {
+    ActorBackgroundColor        PVLTGREEN
+    ActorBorderColor            PDKGREEN
+    BoxBackgroundColor          PGLTGRAY1
+    BoxBorderColor              PGLTGRAY2
+    DividerFontColor            PGLTGRAY3
+    DividerBorderColor          PGLTGRAY3
+    GroupBackgroundColor        PGLTGRAY
+    GroupBorderColor            PGLTGRAY3
+    GroupBorderThickness        1
+    GroupFontColor              PGLTGRAY3
+    GroupHeaderFontColor        PGLTGRAY3
+    GroupHeaderFontStyle        italic
+    LifeLineBackgroundColor     PLTGREEN
+    LifeLineBorderColor         PDKGREEN
+    ParticipantBackgroundColor  PLTGREEN
+    ParticipantBorderColor      PDKGREEN
+    ReferenceBorderColor        PGLTGRAY3
+    ReferenceBorderThickness    1
+    ReferenceFontColor          PGLTGRAY3
+}
+skinparam Arrow {
+    Color     PDKGREEN
+    FontColor PAPURPLE
+    Thickness 2
+}
+skinparam Note {
+    BackgroundColor PVLTGREEN
+    BorderColor     PGLTGRAY2
+    FontColor       PGLTGRAY3
+}
+
+skinparam BoxPadding 10
+skinparam ParticipantPadding 5

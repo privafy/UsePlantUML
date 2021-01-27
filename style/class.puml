@@ -28,3 +28,9 @@ skinparam Collections {
     FontColor       PGLTGRAY3
 }
     
+skinparam Cloud {
+    'BackgroundColor PVLTGREEN
+    BorderColor     PDKGREEN
+    FontColor       PGLTGRAY3
+}
+  

@@ -26,6 +26,28 @@ skinparam Sequence {
     ReferenceBorderThickness    1
     ReferenceFontColor          PGLTGRAY3
 }
+
+skinparam Actor {
+    BackgroundColor        PVLTGREEN
+    BorderColor            PDKGREEN  
+}
+skinparam Boundary {
+    BackgroundColor        PVLTGREEN
+    BorderColor            PDKGREEN  
+}
+skinparam Control {
+    BackgroundColor        PVLTGREEN
+    BorderColor            PDKGREEN  
+}
+skinparam Entity {
+    BackgroundColor        PVLTGREEN
+    BorderColor            PDKGREEN  
+}
+skinparam Database {
+    BackgroundColor        PVLTGREEN
+    BorderColor            PDKGREEN  
+}
+
 skinparam Arrow {
     Color     PDKGREEN
     FontColor PAPURPLE

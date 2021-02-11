@@ -1,0 +1,53 @@
+' 
+' component diagram styles
+'
+'-- choose local or repo; commenting out one or the other
+!includeurl https://raw.githubusercontent.com/privafy/UsePlantUML/master/dist/Common.puml
+'include ../dist/Common.puml
+
+skinparam Component {
+    BackgroundColor        PVLTGREEN
+    BorderColor            PDKGREEN
+    ArrowColor             BLACK
+}
+
+skinparam Interface {
+    BackgroundColor        PABLUE
+    BorderColor            PANAVY
+    ArrowColor             BLACK
+    FontColor              PABLUE
+}
+skinparam Arrow {
+    Color     PDKGREEN
+    FontColor PAPURPLE
+    Thickness 2
+}
+skinparam Note {
+    BackgroundColor PVLTGREEN
+    BorderColor     PGLTGRAY2
+    FontColor       PGLTGRAY3
+}
+
+skinparam Package {
+    BackgroundColor transparent
+    BorderColor     PABLUE
+    FontColor       PGRAY
+}
+
+skinparam node {
+    BackgroundColor transparent
+    BorderColor     PABLUE
+    FontColor       PGRAY
+}
+      
+skinparam Cloud {
+    BackgroundColor transparent
+    BorderColor     PABLUE
+    FontColor       PGRAY
+}
+  
+skinparam Databse {
+    BackgroundColor transparent
+    BorderColor     PABLUE
+    FontColor       PGRAY
+}

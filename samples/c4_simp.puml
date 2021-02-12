@@ -3,7 +3,7 @@
 title "Edge Functions"
 
 !define Puml c4
-'!define Puml https://raw.githubusercontent.com/larryr/UsePlantUML/master/c4
+'!define Puml https://raw.githubusercontent.com/privafy/UsePlantUML/master/c4
 
 '!includeurl Puml/C4_Container.puml
 '!includeurl Puml/C4_Component.puml

@@ -15,7 +15,7 @@ If you want to be independent of any internet connectivity, you can also downloa
 If you want to use the always up-to-date version in this repo, use the following:
 
 ```c#
-!define Puml https://raw.githubusercontent.com/larryr/UsePlantUML/master/dist
+!define Puml https://raw.githubusercontent.com/privafy/UsePlantUML/master/dist
 !includeurl Puml/Common.puml
 !includeurl Puml/Network/DNS.puml
 !includeurl Puml/Cloud/KeyVault.puml

@@ -1,7 +1,7 @@
 @startuml
 !pragma revision 1
 
-!define Puml https://raw.githubusercontent.com/larryr/UsePlantUML/master/
+!define Puml https://raw.githubusercontent.com/privafy/UsePlantUML/master/
 
 !includeurl Puml/dist/Common.puml
 !includeurl Puml/c4/C4_Container.puml

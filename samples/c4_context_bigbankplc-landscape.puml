@@ -1,5 +1,5 @@
 @startuml
-'!include https://raw.githubusercontent.com/larryr/UsePlantUML/master/c4/C4_Context.puml
+'!include https://raw.githubusercontent.com/privafy/UsePlantUML/master/c4/C4_Context.puml
 ' uncomment the following line and comment the first to use locally
 !include c4/C4_Context.puml
 

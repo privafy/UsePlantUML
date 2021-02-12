@@ -2,7 +2,7 @@
 ' Seqence diagram styles
 '
 '-- choose local or repo; commenting out one or the other
-!includeurl https://raw.githubusercontent.com/larryr/UsePlantUML/master/dist/Common.puml
+!includeurl https://raw.githubusercontent.com/privafy/UsePlantUML/master/dist/Common.puml
 'include ../dist/Common.puml
 
 skinparam Sequence {

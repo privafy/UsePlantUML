@@ -1,7 +1,7 @@
 @startuml
 !pragma revision 1
 
-'!define Puml https://raw.githubusercontent.com/larryr/UsePlantUML/master/dist
+'!define Puml https://raw.githubusercontent.com/privafy/UsePlantUML/master/dist
 !define Puml dist
 
 !includeurl Puml/Common.puml
@@ -12,7 +12,7 @@
 !includeurl Puml/Storage/BlobStorage.puml
 !includeurl Puml/Cloud/EventHub.puml
 
-!includeurl https://raw.githubusercontent.com/larryr/UsePlantUML/master/c4/C4_Container.puml
+!includeurl https://raw.githubusercontent.com/privafy/UsePlantUML/master/c4/C4_Container.puml
 
 LAYOUT_LEFT_RIGHT
 LAYOUT_WITH_LEGEND()

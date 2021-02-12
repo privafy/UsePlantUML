@@ -1,7 +1,7 @@
 @startuml Two Mode Sample - Normal
 !pragma revision 1
 
-!define AzurePuml https://raw.githubusercontent.com/larryr/UsePlantUML/master/dist/Azure
+!define AzurePuml https://raw.githubusercontent.com/privafy/UsePlantUML/master/dist/Azure
 !include AzurePuml/AzureCommon.puml
 
 '** uncomment the following for a simplified view of the components:

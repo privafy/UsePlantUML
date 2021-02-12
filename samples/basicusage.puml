@@ -1,7 +1,7 @@
 @startuml Basic usage - Stream processing with  Stream Analytics
 !pragma revision 2
 
-!define Puml https://raw.githubusercontent.com/larryr/UsePlantUML/master/dist
+!define Puml https://raw.githubusercontent.com/privafy/UsePlantUML/master/dist
 !includeurl Puml/Common.puml
 !includeurl Puml/Analytics/Databricks.puml
 !includeurl Puml/Analytics/StreamAnalytics.puml

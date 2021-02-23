@@ -11,6 +11,11 @@ skinparam Class {
     BorderColor            PDKGREEN
     ArrowColor             BLACK
 }
+skinparam Rectangle {
+    BackgroundColor        PVLTGREEN
+    BorderColor            PDKGREEN
+    ArrowColor             BLACK
+}
 skinparam Arrow {
     Color     PDKGREEN
     FontColor PAPURPLE
